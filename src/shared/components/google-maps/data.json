@@ -1,0 +1,19 @@
+{
+    "markers" : [
+        {
+            "id": 1,
+            "name": "Gandhinagar",
+            "position": [23.215635, 72.636940]
+        },
+        {
+            "id": 2,
+            "name": "Motera",
+            "position": [23.105431, 72.630371]
+        },
+        {
+            "id": 3,
+            "name": "Sanand",
+            "position": [22.982450, 72.378578]
+        }
+    ]
+}

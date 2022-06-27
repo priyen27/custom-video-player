@@ -1,0 +1,37 @@
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  &.dark {
+    .rc-slider-mark-text {
+      color: rgba(255, 255, 255, 0.75);
+      &-active {
+        color: rgba(255, 255, 255, 0.75);
+      }
+    }
+    .value {
+      color: #fff;
+    }
+  }
+  .rc-slider-mark-text {
+    font-size: 0.625rem;
+    color: rgba(0, 0, 0, 0.75);
+    &:first-child {
+      transform: none !important;
+    }
+    &:last-child {
+      transform: translateX(-100%) !important;
+    }
+    &-active {
+      color: rgba(0, 0, 0, 0.75);
+    }
+  }
+  .value {
+    margin-left: 0.5rem;
+    min-width: 30px;
+    text-align: right;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.14;
+    color: #000;
+  }
+}
